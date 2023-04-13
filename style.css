@@ -145,3 +145,8 @@ html {
   i{
     color: white;
   }
+
+  .map {
+    width: 150px;
+    height: 150px;
+  }
