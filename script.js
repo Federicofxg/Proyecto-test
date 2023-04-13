@@ -11,3 +11,10 @@ var map;
     title: 'Acuario de Gijón'
       });
     }
+
+function sendSearch() {
+  let searchValue= document.getElementById("search").value;
+  alert(searchValue)
+  window.location.href =`https://www.google.com.ar/search?q=${sendValue}`
+  } 
+  
