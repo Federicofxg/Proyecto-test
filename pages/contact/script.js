@@ -35,3 +35,7 @@ function validarDatos(){
   
   }
   
+  function sendSearch() {
+    let searchValue = document.getElementById("search").value;
+    window.open(`https://www.google.com.ar/search?q=${searchValue}`);
+  }

@@ -12,9 +12,7 @@ var map;
       });
     }
 
-function sendSearch() {
-  let searchValue= document.getElementById("search").value;
-  alert(searchValue)
-  window.location.href =`https://www.google.com.ar/search?q=${sendValue}`
-  } 
-  
+  function sendSearch() {
+    let searchValue = document.getElementById("search").value;
+    window.open(`https://www.google.com.ar/search?q=${searchValue}`);
+  }
