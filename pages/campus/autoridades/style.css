@@ -21,17 +21,13 @@ html {
     flex-direction: column;
     }
   
-  .abeja{
+    .abeja{
+        height: 250px;
+        width: 100%;
+       
+      }
   
-    background-image: image(abeja.peg);
-  }
-  
-  
-  .pie{
-      background: #393738;
-  }
-  
-  }
+   
   .txt_logo{
       font-size: 28px;
       color:#323135;
