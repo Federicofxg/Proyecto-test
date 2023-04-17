@@ -100,9 +100,14 @@ span{
     }
 
 div h2{
-    color:#1a1919;
-    padding:10px 0px;
-    }
+        padding: 10px 0px;
+        color: white;
+          }
+div h5{
+        padding: 10px 0px;
+        color: rgb(30, 30, 30);        
+          }
+
 div p{
     color:#000000;
 }
