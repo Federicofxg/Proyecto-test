@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+}
 
 body{
   width: 100vw;
@@ -24,7 +25,7 @@ a:hover{color: #0a58ca}
     background: #393738;
 }
 
-}
+
 .txt_logo{
     font-size: 28px;
     color:#323135;
@@ -40,9 +41,11 @@ a:hover{color: #0a58ca}
     max-height: 40px;
       }
 
-header{    position: fixed;
+header{    
+    position: fixed;
     top: 0;
-    width: 100%;}
+    width: 100%;
+  }
 .redes span{    font-size: 15px;}
 .logo img{width:40px;}
 .logo p.txt_logo{margin:0px;}
