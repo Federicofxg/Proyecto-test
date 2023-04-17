@@ -104,11 +104,12 @@ span{
 
 div h2{
         padding: 10px 0px;
-        color: white;
+        color: rgb(12, 12, 12);
           }
 div h5{
         padding: 10px 0px;
-        color: rgb(30, 30, 30);        
+        color: rgb(30, 30, 30); 
+        font-size: 28px;      
           }
 
 div p{
