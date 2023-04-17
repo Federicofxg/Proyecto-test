@@ -91,18 +91,23 @@ span{
 .section{
     display:flex;
     justify-content: space-evenly;
-    gap:40px;
     padding-bottom: 7px;
   }
+  
 .section div{
     display:flex;
     flex-direction: column;
     }
 
 div h2{
-    color:#1a1919;
-    padding:10px 0px;
-    }
+        padding: 10px 0px;
+        color: white;
+          }
+div h5{
+        padding: 10px 0px;
+        color: rgb(30, 30, 30);        
+          }
+
 div p{
     color:#000000;
 }
@@ -137,6 +142,7 @@ i{
 }
 
 .map {
-    width: 100%;
-    height:200px;
-  }
+    width: 40rem;
+    height: 190px;
+    border-radius: 10px;
+}
