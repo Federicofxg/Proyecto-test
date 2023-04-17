@@ -100,7 +100,7 @@
   <article class="formularioContacto">
     <form>
     <label for="nombre">Nombre Completo:</label>
-    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre y apellido">
+    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre y apellido" oninput="this.value = this.value.replace(/[0-9.]/g, '').replace(/(\..*)\./g, '[a-zA-Z]');">
       <label id="msgNombre" class="adver"> </label>
       <br>
       <!--
