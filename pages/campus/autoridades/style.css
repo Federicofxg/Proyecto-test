@@ -22,7 +22,7 @@ html {
     }
   
     .abeja{
-        height: 350px;
+        height: 400px;
         width: auto;
         border-radius: 10px;       
       }
@@ -33,7 +33,7 @@ html {
       color:#323135;
     }
 
-  .headerPie{
+    .headerPie{
       display:flex;
       align-items: center;
       justify-content: space-between;
